@@ -1,4 +1,4 @@
-## Yammy - website
+## Yummy - website
 meals full dictionary based on (https://www.themealdb.com/api.php) api 
 
 ## Live Demo 
