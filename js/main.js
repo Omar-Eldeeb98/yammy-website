@@ -89,7 +89,7 @@ async function getMeals() {
   var result = await response.json();
 
   console.log(result.meals); //^ array of objects 'meals'
-  displayMeals(result.meals);
+  displayMeals(result.meals.slice(0, 20));
 }
 getMeals();
 // & ================================== function get meals ===============================================================
