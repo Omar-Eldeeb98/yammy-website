@@ -240,7 +240,7 @@ async function getIngredients() {
   var result = response.meals;
   console.log(result, "👋🏻"); //^ for testing
   $(".inner-loading-screen").fadeOut(300);
-  displayIngredients(result);
+  displayIngredients(result.slice(0,20));
 }
 
 function displayIngredients(ingredientArray) {
