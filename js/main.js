@@ -254,10 +254,9 @@ function displayIngredients(ingredientArray) {
                 }')" class="rounded-2 text-center cursor-pointer">
                         <i class="fa-solid fa-drumstick-bite fa-4x"></i>
                         <h3>${ingredientArray[i].strIngredient}</h3>
-                        <p>${ingredientArray[i].strDescription.substring(
-                          0,
-                          100
-                        )}</p>
+                        <p class = "hell_">${ingredientArray[i].strDescription}</p>
+                         
+                        
                 </div>
         </div>
         `;
