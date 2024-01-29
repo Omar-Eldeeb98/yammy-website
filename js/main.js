@@ -130,7 +130,7 @@ async function getCategories() {
   var result = response.categories; //^ Array of oblects "categories"
   console.log(result);
   $(".inner-loading-screen").fadeOut(300);
-  displayCategories(result.slice(0,20));
+  displayCategories(result);
 }
 
 function displayCategories(categoriesArray) {
@@ -207,7 +207,7 @@ async function getAreaMeals(area) {
 
   var result = response.meals;
   $(".inner-loading-screen").fadeOut(300);
-  displayMeals(result.slice(0 , 20);
+  displayMeals(result);
 }
 // & ==================================  display area meals ===============================================================
 
@@ -222,7 +222,7 @@ async function getCategoryMeals(category) {
 
   var result = response.meals;
   $(".inner-loading-screen").fadeOut(300);
-  displayMeals(result.slice(0,20));
+  displayMeals(result);
 }
 
 // & ================================== get and display meals by category  ===============================================================
@@ -240,7 +240,7 @@ async function getIngredients() {
   var result = response.meals;
   console.log(result, "👋🏻"); //^ for testing
   $(".inner-loading-screen").fadeOut(300);
-  displayIngredients(result.slice(0, 20));
+  displayIngredients(result);
 }
 
 function displayIngredients(ingredientArray) {
@@ -280,7 +280,7 @@ async function getIngredientsMeals(ingredients) {
   var result = response.meals;
   console.log(result); //^ for testing
   $(".inner-loading-screen").fadeOut(300);
-  displayMeals(result.slice(0,20));
+  displayMeals(result);
 }
 
 // & ================================== get and display INGREDIENTS meals  ===============================================================
