@@ -130,3 +130,9 @@ input::placeholder {
     left: 50%;
     transform: translate(-50% , -50%);   
 }
+
+.hell_ {
+    height: 100px;
+    overflow: hidden;
+    padding-bottom: 12px;
+}
